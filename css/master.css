@@ -1,0 +1,116 @@
+/* You may adapt and learn from the elements of this CSS to use in your own
+projects, but you may not copy the design (the unique combination of images,
+colors, sizes, typography, and positioning) since this is copyright of Duoh! n.v.
+and may not be reproduced. 
+------------------------------------------------------------------*/
+
+/* Duoh! Main stylesheet
+------------------------------------------------------------------*/
+
+/* @group resetting - general */
+
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address {
+	margin:0;
+	padding:0;
+}
+html {
+	background: #3e373c url(../images/colorbar.jpg) repeat-y fixed;
+}
+ul,li {
+	list-style-type:none;
+	}
+body {
+	font:80%/150% Corbel,Helvetica,Arial,Geneva,sans-serif;
+	color:#777e77;
+}	
+
+/* @end */
+
+/* @group misc */
+
+.noshow, .structural {
+	position: absolute;
+	top:-9999px;
+	left:-9999px;
+	height: 1px;
+	width: 1px;
+	}
+
+/* @end */
+
+/* @group layout */
+
+#content {
+	float:left;
+	width:589px;
+	padding:0 30px 0 35px;
+	position:relative;
+}
+
+/* @end */
+
+
+
+/* @group text */
+
+sup {
+	line-height:0%;
+}
+#footer-txt p {
+	text-align:left;
+	letter-spacing:1px;
+	font-size:.9em;
+}
+#content p {
+	margin-bottom:1.5em;
+}
+#content p.nomargin, ul.nomargin.list2 {
+	margin-bottom:0;
+	}
+blockquote p {
+	margin:0;
+	font-size:1.1em;
+	color:#858c84;
+}
+
+/* @end */
+
+/* @group headings */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, Geneva, sans-serif;
+}
+.alt h3,h2 {
+	/*color:#a0d35f;*/
+	font-size:1.8em;
+	margin:.7em 0 .7em 0;
+}
+h3 {
+	color:#858c84;
+	font-size:1.3em;
+	margin:1em 30px 0 .5em;
+}
+
+/* @end */
+
+
+/* @group 404 */
+
+#notfound #content {
+	background: url(../images/404.jpg) no-repeat right bottom;
+	width:960px;
+	padding:50px 0 630px 27px;
+}
+#notfound #content p {
+	padding:0 0 0 185px;
+}
+#notfound #content h2 {
+	padding:0 0 0 185px;
+	font: bold 2.8em Helvetica, Arial, Geneva, sans-serif;
+	color:#acb6ab;
+}
+
+#notfound #content p a:visited {
+	border-bottom-color: #504c4e;
+}
+/* @end */
